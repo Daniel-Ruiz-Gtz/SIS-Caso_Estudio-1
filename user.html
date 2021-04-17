@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>The Secret Library</title>
+      <title>The Secret Library - Usuario</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -53,10 +53,13 @@
                            <nav class="main-menu">
                               <ul class="menu-area-main">
                                  <li> <a href="index.html">Principal</a> </li>
-                                 <li><a href="books.html">Libros</a></li>
-                                 <li><a href="contact.html">Contact us</a></li>
+                                 <li> <a href="books.html">Libros</a></li>
+                                 <li> <a href="index.html#Rastreo">Rastrear Pedido</a></li>
+                                 <li> <a href="contact.html">Contacto</a></li>
+                                 <li class="mean-last"> <a href="cart.html"><img src="images/cart-icon.png" alt="#" /></a> </li>
+                                 <li class="mean-last"> <a href="suppliers.html"><img src="images/supp-icon.png" alt="#" /></a> </li>
                                  <li class="mean-last"> <a href="#"><img src="images/search_icon.png" alt="#" /></a> </li>
-                                 <li class="mean-last" class="active">  <a href="#"><img src="images/top-icon.png" alt="#" /></a> </li>
+                                 <li class="mean-last"> <a href="user.html"><img src="images/top-icon.png"  /></a> </li>
                               </ul>
                            </nav>
                         </div>
@@ -69,50 +72,157 @@
          <!-- end header inner -->
       </header>
       <!-- end header -->
-      <div class="about-bg">
-         <div class="container">
-            <div class="row">
-               <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                  <div class="abouttitle">
-                     <h2>Our Library</h2>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- Library -->
-      <div class="Library">
+      <!-- User Page -->
+      <br><br><br><br><br>
+      <div class="UserHistory">
          <div class="container">
             <div class="row">
                <div class="col-md-10 offset-md-1">
                   <div class="titlepage">
-                     <span>adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</span> 
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="bg">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-10 offset-md-1">
-                     <div class="Library-box">
-                        <figure><img src="images/Library-.jpg" alt="#"/></figure>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="read-more">
-                     <a href="#">Read More</a>
+                     <h2>Historial de Usuario</h2>
                   </div>
                </div>
             </div>
          </div>
       </div>
-      <!-- end Library -->
+      <div class="container mt-5">
+         <div class="d-flex justify-content-center row">
+            <div class="col-md-10">
+               <div class="rounded">
+                  <div class="table-responsive table-borderless">
+                     <table class="table">
+                        <thead>
+                        <tr>
+                           <th class="text-center">#</th>
+                           <th>Código ID</th>
+                           <th>Cantidad</th>
+                           <th>Estatus</th>
+                           <th>Total</th>
+                           <th>Fecha de Orden</th>
+                           <th></th>
+                        </tr>
+                        </thead>
+                        <tbody class="table-body">
+                        <tr class="cell-1">
+                           <td class="text-center">1</td>
+                           <td>#SO-13487</td>
+                           <td>5</td>
+                           <td><span class="badge badge-success">Enviado</span></td>
+                           <td>$1,864.00</td>
+                           <td>Hoy</td>
+                           <td><i class="fa fa-ellipsis-h text-black-50"></i></td>
+                        </tr>
+                        <tr class="cell-1">
+                           <td class="text-center">2</td>
+                           <td>#SO-13453</td>
+                           <td>3</td>
+                           <td><span class="badge badge-info">Confirmado</span></td>
+                           <td>$1,230.00</td>
+                           <td>Ayer</td>
+                           <td><i class="fa fa-ellipsis-h text-black-50"></i></td>
+                        </tr>
+                        <tr class="cell-1">
+                           <td class="text-center">3</td>
+                           <td>#SO-13498</td>
+                           <td>7</td>
+                           <td><span class="badge badge-danger">Cancelado</span></td>
+                           <td>$6274.00</td>
+                           <td>Mar 12, 2021</td>
+                           <td><i class="fa fa-ellipsis-h text-black-50"></i></td>
+                        </tr>
+                        <tr class="cell-1">
+                           <td class="text-center">4</td>
+                           <td>#SO-16499</td>
+                           <td>2</td>
+                           <td><span class="badge badge-success">Enviado</span></td>
+                           <td>$550.00</td>
+                           <td>Abr 05, 2021</td>
+                           <td><i class="fa fa-ellipsis-h text-black-50"></i></td>
+                        </tr>
+                        <tr class="cell-1">
+                           <td class="text-center">5</td>
+                           <td>#SO-16467</td>
+                           <td>4</td>
+                           <td><span class="badge badge-success">Enviado</span></td>
+                           <td>$1750.00</td>
+                           <td>Mar 21, 2021</td>
+                           <td><i class="fa fa-ellipsis-h text-black-50"></i></td>
+                        </tr>
+                        <tr class="cell-1">
+                           <td class="text-center">6</td>
+                           <td>#SO-15786</td>
+                           <td>1</td>
+                           <td><span class="badge badge-info">Confirmado</span></td>
+                           <td>$290.00</td>
+                           <td>Mar 18, 2021</td>
+                           <td><i class="fa fa-ellipsis-h text-black-50"></i></td>
+                        </tr>
+                        <tr class="cell-1">
+                           <td class="text-center">7</td>
+                           <td>#SO-11899</td>
+                           <td>1</td>
+                           <td><span class="badge badge-danger">Cancelado</span></td>
+                           <td>$490.00</td>
+                           <td>Feb 25, 2021</td>
+                           <td><i class="fa fa-ellipsis-h text-black-50"></i></td>
+                        </tr>
+                        <tr class="cell-1">
+                           <td class="text-center">8</td>
+                           <td>#SO-16473</td>
+                           <td>8</td>
+                           <td><span class="badge badge-success">Enviado</span></td>
+                           <td>$3950.00</td>
+                           <td>Ene 09, 2021</td>
+                           <td><i class="fa fa-ellipsis-h text-black-50"></i></td>
+                        </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="Books" id="TopVentas">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-10 offset-md-1">
+                  <div class="titlepage">
+                     <br>
+                     <h2>Recomendaciones <strong class="black">Según Historial </strong></h2>
+                     <span>Según tu historial de compras tenemos este top de recomendaciones para ti</span>
+                  </div>
+               </div>
+            </div>
+            <div class="row box">
+               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                  <div class="book-box">
+                     <figure><img src="images/Rec2.png" alt="img"/></figure>
+                  </div>
+               </div>
+               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                  <div class="book-box">
+                     <figure><img src="images/Rec1.png" alt="img"/></figure>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                  <div class="book-box">
+                     <figure><img src="images/Rec3.png" alt="img"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-6 offset-md-3">
+                  <p>El psicoanalista es una novela escrita por John Katzenbach, publicada en 2002.
+                     El thriller psicológico es la novela más exitosa del autor y en 2003 se publicó en
+                     español en España, Chile, Argentina, Colombia, Venezuela, México, Uruguay y Ecuador,
+                     donde se mantuvo entre los más vendidos. La historia, que pone a prueba la capacidad del
+                     protagonista para evitar su suicidio frente a la presión de un desconocido, destaca por
+                     el realismo psicológico de sus personajes y la capacidad de establecer una trama intrigante.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <br><br><br><br><br>
+
+      <!-- end User Page -->
       <!-- footer -->
       <footer>
          <div class="footer">
@@ -120,7 +230,7 @@
                <div class="row pdn-top-30">
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                      <div class="Follow">
-                        <h3>Follow Us</h3>
+                        <h3>Siguenos en nuestras Redes Sociales:</h3>
                      </div>
                      <ul class="location_icon">
                         <li> <a href="#"><img src="icon/facebook.png"></a></li>
@@ -131,17 +241,12 @@
                   </div>
                   <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
                      <div class="Follow">
-                        <h3>Newsletter</h3>
+                        <h3>Recibe correo de nuestras ofertas y promociones</h3>
                      </div>
-                     <input class="Newsletter" placeholder="Enter your email" type="Enter your email">
-                     <button class="Subscribe">Subscribe</button>
+                     <input class="Newsletter" placeholder="Ingresa tu Email" type="Enter your email">
+                     <button class="Subscribe">Enviar</button>
                   </div>
                </div>
-            </div>
-         </div>
-         <div class="copyright">
-            <div class="container">
-               <p>Copyright 2019 All Right Reserved By <a href="https://html.design/">Free html Templates</a></p>
             </div>
          </div>
       </footer>
