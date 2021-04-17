@@ -14,5 +14,4 @@ $(document).ready(function(){
         var count = $(this).parent().prev().text();
         $(this).parent().prev().html(Number(count) - 1);
     });
-
 });
