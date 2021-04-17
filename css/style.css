@@ -354,7 +354,11 @@
 }
 
 .home_page .header {
-    background: rgb(0,0,0);
+    background: rgba(0,0,0,0.4);
+}
+
+.blacker {
+    background: black !important;
 }
 
  .logo {
